@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <h1>ravenous</h1>
       <SearchBar />
-      <BusinessList businessProp={businesses} />
+      <BusinessList businesses={businesses} />
     </div>
   );
 }
